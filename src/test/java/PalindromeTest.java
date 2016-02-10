@@ -24,4 +24,8 @@ public class PalindromeTest {
     assertEquals(false, Palindrome.palindromeChecker("cat"));
   }
 
+  @Test
+  public void palindromeChecker_annaShouldReturn_true() {
+    assertEquals(true, Palindrome.palindromeChecker("anna"));
+  }
 }
