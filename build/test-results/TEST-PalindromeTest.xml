@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PalindromeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-02-10T23:30:04" hostname="epicodus-67.local" time="0.009">
+<testsuite name="PalindromeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-02-11T00:15:46" hostname="epicodus-67.local" time="0.019">
   <properties/>
   <testcase name="palindromeChecker_annaShouldReturn_true" classname="PalindromeTest" time="0.001"/>
   <testcase name="palindromeChecker_catShouldReturn_false" classname="PalindromeTest" time="0.0"/>
+  <testcase name="palindromeChecker_rotatorShouldReturn_true" classname="PalindromeTest" time="0.0"/>
+  <testcase name="palindromeChecker_amoreRomaShouldReturn_true" classname="PalindromeTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[[Thread-4] INFO spark.webserver.SparkServer - == Spark has ignited ...
+[Thread-4] INFO spark.webserver.SparkServer - >> Listening on 0.0.0.0:4567
+[Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@3bd990f3{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO spark.webserver.SparkServer - >>> Spark shutting down ...
+[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@87b33b0 by 
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@3bd990f3{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO spark.webserver.SparkServer - done
+]]></system-err>
 </testsuite>

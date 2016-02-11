@@ -28,4 +28,14 @@ public class PalindromeTest {
   public void palindromeChecker_annaShouldReturn_true() {
     assertEquals(true, Palindrome.palindromeChecker("anna"));
   }
+
+  @Test
+  public void palindromeChecker_rotatorShouldReturn_true() {
+    assertEquals(true, Palindrome.palindromeChecker("rotator"));
+  }
+
+  @Test
+  public void palindromeChecker_amoreRomaShouldReturn_true() {
+    assertEquals(true, Palindrome.palindromeChecker("Amore, roma"));
+  }
 }
